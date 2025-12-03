@@ -4,5 +4,5 @@ import model.Pedido;
 
 public interface EstrategiaDeFrete {
 
-    void calcularValorFinal(Pedido pedido);
+    double calcularValorFinal(Pedido pedido);
 }
