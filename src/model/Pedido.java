@@ -4,7 +4,7 @@ public class Pedido {
 
     protected double valorBruto;
     protected double valorFinal;
-    protected double valorFrete = 0.0;
+    protected double valorFrete = 25.00;
 
     public Pedido(double valorBruto) {
         this.valorBruto = valorBruto;
