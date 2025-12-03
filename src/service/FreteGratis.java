@@ -1,4 +1,11 @@
 package service;
 
-public class FreteGratis {
+import model.Pedido;
+
+public class FreteGratis implements EstrategiaDeFrete{
+
+    @Override
+    public double calcularValorFinal(Pedido pedido) {
+        return pedido.getValorBruto();
+    }
 }
