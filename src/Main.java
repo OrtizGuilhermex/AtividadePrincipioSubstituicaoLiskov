@@ -4,6 +4,13 @@ import service.FreteGratis;
 import service.FretePadrao;
 import service.ProcessadorDePagamento;
 
+
+/**
+ * Classe principal que inicia o sistema
+ * @author Luiz guilherme
+ * @version 1.0
+ * @since 03-12-2025
+ * */
 public class Main {
     public static void main(String[] args) {
 

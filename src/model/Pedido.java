@@ -1,5 +1,11 @@
 package model;
-
+/**
+ * Entidade principal do sistema (aberta para extensão e fechada para modificação)
+ * A classe pedido não contem mais herança nem a lógica de frete
+ * @author Luiz guilherme
+ * @version 1.0
+ * @since 03-12-2025
+ * */
 public class Pedido {
 
     protected double valorBruto;
